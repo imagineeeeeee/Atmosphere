@@ -1,4 +1,4 @@
-_G.key = 12344321
+
 
 local v0 = string.char;
 local v1 = string.byte;
