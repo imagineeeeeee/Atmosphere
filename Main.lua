@@ -1,5 +1,6 @@
 keys = 12344321
 
+local player = game.Players.LocalPlayer
 
 if key == keys then
 	
@@ -815,7 +816,7 @@ local function YUPHHWG_fake_script() -- Toggle.LocalScript
 				else
 					wait()
 				end
-			end
+			end)
 		else
 			toggled = false
 			script.Parent.BackgroundColor3 = Color3.fromHSV(0, 0, 0.117647)
@@ -991,4 +992,6 @@ local function HGTDVY_fake_script() -- MOTHub.PositionScript
 end
 coroutine.wrap(HGTDVY_fake_script)()
 		
+else
+	player:Kick("You Are Not Whitelisted")
 end
